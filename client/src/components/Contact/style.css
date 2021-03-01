@@ -1,0 +1,35 @@
+.title {
+  position: relative;
+
+  font-size: 2em;
+  margin: 0;
+}
+
+.footer {
+  margin: 0;
+}
+
+.bottom {
+  height: 400px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact {
+  margin: 1em 3em 4em 3em;
+  width: 64px;
+}
+
+.contact-img {
+  background-color: rgb(18, 86, 143);
+  border: solid 4px rgb(149, 204, 230);
+  border-radius: 50%;
+}
+
+.contact-img:hover {
+  border: solid 4px rgb(76, 18, 236);
+}

@@ -15,7 +15,7 @@ export default function Skills() {
           <div>
             <br />
             <br />
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <hr className="line-break" />
             <br />
             <br />

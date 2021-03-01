@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../resume/Resume.pdf";
 import "./style.css";
 
 export default function NavBar() {
@@ -18,7 +19,7 @@ export default function NavBar() {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="./assets/resume/Resume.pdf">Resume</a>
+          <a href={resume}>Resume</a>
         </li>
       </ul>
     </nav>
