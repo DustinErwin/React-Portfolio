@@ -56,3 +56,14 @@
     background-position-x: 100%;
   }
 }
+
+@keyframes upIn {
+  from {
+    top: 400px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}

@@ -5,6 +5,10 @@ body {
   scrollbar-width: none;
 }
 
--webkit-scrollbar.body {
+* {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
   display: none;
 }
