@@ -31,7 +31,7 @@ export default function Skills() {
                 <img
                   className="project-link"
                   src={couchSurf}
-                  alt="Picture of Couch Surf: Pandemic App"
+                  alt="Couch Surf: Pandemic App"
                 />
                 <div className="project-desc hide">
                   <p className="project-title">Couch Surf</p>
@@ -49,11 +49,7 @@ export default function Skills() {
                 className={moveIn}
                 href="https://gym-logistical-tracker-duex.herokuapp.com/"
               >
-                <img
-                  className="project-link"
-                  src={devfit}
-                  alt="Picture of Dev Fit App"
-                />
+                <img className="project-link" src={devfit} alt="Dev Fit App" />
                 <div className="project-desc hide">
                   <p className="project-title">Dev Fit</p>
                   <p className="project-p">
@@ -76,7 +72,7 @@ export default function Skills() {
                 <img
                   className="project-link"
                   src={dayplanner}
-                  alt="Picture of Day Planner App"
+                  alt="Day Planner App"
                 />
                 <div className="project-desc hide">
                   <p className="project-title">Work Day Scheduler</p>
@@ -96,7 +92,7 @@ export default function Skills() {
                 <img
                   className="project-link"
                   src={codequiz}
-                  alt="Picture of Coding Quiz"
+                  alt="Coding Quiz"
                 />
                 <div className="project-desc hide">
                   <p className="project-title">Weather Dashboard</p>

@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav className="navbar">
       <ul className="font-style">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#projects">Projects</a>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import open from "../../images/dustinOpen.png";
-import closed from "../../images/dustinBlink.png";
+// import closed from "../../images/dustinBlink.png";
 import real from "../../images/picMe.png";
 
 import "./style.css";
@@ -36,10 +36,10 @@ export default function MyImg() {
 
   return (
     <img
-      class="img-me-pix"
+      className="img-me-pix"
       src={mypic}
       onClick={() => imgChange()}
-      alt="Picture of Dustin"
+      alt="Dustin"
     />
   );
 }

@@ -36,7 +36,7 @@ export default function Tools() {
             <img className="img-me-pix" src={mongodb} alt="Bootstrap Icon" />
           </div>
           <div>
-            <img className="img-me-pix" src={node} alt="" />
+            <img className="img-me-pix" src={node} alt="Node Icon" />
           </div>
         </div>
       </div>
