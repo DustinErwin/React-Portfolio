@@ -8,6 +8,37 @@
   animation: slide 120s linear infinite;
 }
 
+.font-style {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  color: rgb(149, 204, 230);
+}
+
+.spacer1 {
+  height: 30em;
+}
+
+.spacer2 {
+  height: 20em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.line-break {
+  border-width: 0;
+  background-color: rgb(54, 48, 48);
+  max-width: 25%;
+  height: 3px;
+  color: grey;
+  margin-bottom: 2em;
+}
+
 @keyframes slide {
   0% {
     transform: translate3d(0, 0, 0);

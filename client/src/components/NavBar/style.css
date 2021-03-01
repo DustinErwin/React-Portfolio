@@ -1,0 +1,33 @@
+ul {
+  z-index: 2;
+  opacity: 0.9;
+  height: 4em;
+  width: 100%;
+  padding: 10%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #252222;
+}
+
+li {
+  margin: 0 2%;
+}
+
+li a {
+  font-size: large;
+  color: rgb(160, 210, 250);
+  margin: auto;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

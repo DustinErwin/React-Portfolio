@@ -1,0 +1,47 @@
+.intro {
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../images/graychev.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 5%;
+  height: 600px;
+}
+
+.intro-info {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  max-width: 50%;
+}
+
+.img-me-pix {
+  opacity: 1;
+  background-color: rgb(18, 86, 143);
+  border: solid 4px rgb(149, 204, 230);
+  border-radius: 50%;
+  margin-top: 1em;
+  width: 164px;
+}
+
+.img-me-pix:hover {
+  border: solid 4px rgb(76, 18, 236);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.desc {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
