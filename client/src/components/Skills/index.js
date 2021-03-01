@@ -12,7 +12,6 @@ export default function Skills() {
 
   useEffect(() => {
     if (scrollY >= 1100) {
-      console.log("yay");
       setMoveIn("move-in");
     }
   }, [scrollY]);

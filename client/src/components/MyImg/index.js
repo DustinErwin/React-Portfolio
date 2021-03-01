@@ -17,7 +17,7 @@ export default function MyImg() {
         setMypic(open);
       }, 300);
     }
-  }, 7000);
+  }, 6000);
 
   //Changes to real life image on click
   function imgChange() {

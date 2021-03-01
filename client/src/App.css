@@ -39,6 +39,14 @@
   margin-bottom: 2em;
 }
 
+.move-in {
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 0;
+  position: relative;
+  animation: upIn 1s ease-out forwards;
+}
+
 @keyframes slide {
   0% {
     transform: translate3d(0, 0, 0);
