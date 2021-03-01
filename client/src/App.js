@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "./App.css";
 
 function App() {
-  return <div></div>;
+  return <div class="sliding-background"></div>;
 }
 
 export default App;

@@ -1,0 +1,27 @@
+.sliding-background {
+  margin-top: 0;
+  z-index: -5;
+  position: fixed;
+  background: url("./images/20842368.jpg") repeat;
+  height: 1440px;
+  width: 23040px;
+  animation: slide 120s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-7680px, 0, 0);
+  }
+}
+
+@keyframes bgScroll {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
