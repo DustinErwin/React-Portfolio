@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import couchSurf from "../../images/couchSurf.png";
 import devfit from "../../images/devfit.png";
 import dayplanner from "../../images/dayPlanner.png";
 import codequiz from "../../images/codingQuiz.png";
 import "./style.css";
+import ScrollContext from "../../context/ScrollContext";
 
 export default function Skills() {
-  const moveIn = "project";
+  const [moveIn, setMoveIn] = useState("");
+  const scrollY = useContext(ScrollContext);
+
+  useEffect(() => {
+    if (scrollY >= 1100) {
+      console.log("yay");
+      setMoveIn("move-in");
+    }
+  }, [scrollY]);
 
   return (
     <div>
@@ -21,11 +30,11 @@ export default function Skills() {
             <br />
           </div>
         </div>
-        <div id="skills">
+        <div id="skills" className={moveIn}>
           <div>
             <div>
               <a
-                className={moveIn}
+                className="project"
                 href="https://dustinerwin.github.io/CouchSurf/"
               >
                 <img
@@ -46,7 +55,7 @@ export default function Skills() {
             </div>
             <div>
               <a
-                className={moveIn}
+                className="project"
                 href="https://gym-logistical-tracker-duex.herokuapp.com/"
               >
                 <img className="project-link" src={devfit} alt="Dev Fit App" />
@@ -66,7 +75,7 @@ export default function Skills() {
           <div>
             <div>
               <a
-                className={moveIn}
+                className="project"
                 href="https://dustinerwin.github.io/Day-Scheduler/"
               >
                 <img
@@ -86,7 +95,7 @@ export default function Skills() {
             </div>
             <div>
               <a
-                className={moveIn}
+                className="project"
                 href="https://dustinerwin.github.io/Coding-Quiz/"
               >
                 <img

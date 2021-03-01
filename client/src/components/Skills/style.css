@@ -3,6 +3,7 @@
   justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  opacity: 0;
 }
 
 .project-link {
@@ -60,4 +61,23 @@ a {
 
 h2 {
   font-size: 3rem;
+}
+
+.move-in {
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 0;
+  position: relative;
+  animation: upIn 1s ease-out forwards;
+}
+
+@keyframes upIn {
+  from {
+    top: 400px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
 }

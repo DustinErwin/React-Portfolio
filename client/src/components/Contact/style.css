@@ -31,3 +31,7 @@
 .contact-img:hover {
   border: solid 4px rgb(76, 18, 236);
 }
+
+.email {
+  font-size: 2vw;
+}

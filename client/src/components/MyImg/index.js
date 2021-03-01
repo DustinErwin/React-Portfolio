@@ -1,25 +1,23 @@
 import React, { useState } from "react";
 import open from "../../images/dustinOpen.png";
-// import closed from "../../images/dustinBlink.png";
+import closed from "../../images/dustinBlink.png";
 import real from "../../images/picMe.png";
-
 import "./style.css";
+import useInterval from "../../utils/IntervalHook";
 
 export default function MyImg() {
   const [mypic, setMypic] = useState(open);
   const [imgLoaded, setImgLoaded] = useState(false);
 
-  //   let blinker = setInterval(blink, 7000);
-
-  //   //Blinks pixel image eyes
-  //   function blink() {
-  //     setMypic(closed);
-  //     setTimeout(function () {
-  //       setMypic(open);
-  //     }, 300);
-  //   }
-
-  //   blink();
+  //Custom hook to make eyes blink
+  useInterval(() => {
+    if (!imgLoaded) {
+      setMypic(closed);
+      setTimeout(() => {
+        setMypic(open);
+      }, 300);
+    }
+  }, 7000);
 
   //Changes to real life image on click
   function imgChange() {

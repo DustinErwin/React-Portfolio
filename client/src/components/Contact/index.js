@@ -1,7 +1,6 @@
 import React from "react";
 import linkedIn from "../../images/linkedIn.jpg";
 import github from "../../images/github.jpg";
-
 import "./style.css";
 
 export default function Contact() {
@@ -25,7 +24,7 @@ export default function Contact() {
               alt="GitHub logo"
             />
           </a>
-          <p className="email title">{email}</p>
+          <p className="email">{email}</p>
           <a
             className="contact-a"
             href="https://www.linkedin.com/in/dustin-erwin-a126b61b6"
