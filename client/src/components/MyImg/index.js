@@ -23,11 +23,9 @@ export default function MyImg() {
   function imgChange() {
     if (!imgLoaded) {
       setMypic(real);
-      //   clearInterval(blinker);
       setImgLoaded(true);
     } else {
       setMypic(open);
-      //   blinker = setInterval(blink, 7000);
       setImgLoaded(false);
     }
   }
