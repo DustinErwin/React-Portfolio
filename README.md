@@ -1,5 +1,7 @@
 <h1 align="center">Dustin Erwin's Portfolio</h1>
 
+![My Portfolio](https://user-images.githubusercontent.com/70966543/109666156-ee3a8980-7b3c-11eb-8c5e-ee6b50a3bd83.png)
+
 ![badge](https://img.shields.io/badge/license-MIT-blue)<br />
 
 ## Description
