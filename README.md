@@ -18,10 +18,6 @@ This is my portfolio with some of the work I have done. You can hover over some 
 
 - [Questions?](#questions)
 
-![ReadmeGen](https://user-images.githubusercontent.com/70966543/99893284-081a2580-2c4c-11eb-9da9-a5ebe163134a.gif)
-
-https://drive.google.com/file/d/1wCqPLPJlgX6ekM2f6VQyB09LxaGTn6jo/view
-
 ## License
 
 ![badge](https://img.shields.io/badge/license-MIT-blue)
