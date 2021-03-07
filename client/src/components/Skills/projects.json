@@ -1,0 +1,26 @@
+[
+  {
+    "href": "https://dustinerwin.github.io/CouchSurf/",
+    "alt": "Couch Surf: Pandemic App",
+    "title": "Couch Surf",
+    "desc": "A dashboard app meant to kick off your web browsing with a liitle bit of everything. I designed the games section here and also created the game, Couch Blasters: Pandemic."
+  },
+  {
+    "href": "https://gym-logistical-tracker-duex.herokuapp.com/",
+    "alt": "Dev Fit App",
+    "title": "Dev Fit",
+    "desc": "A gym login application, designed to control access to members, employees, and managers. Class schedules are added upon login along with high level functionality."
+  },
+  {
+    "href": "https://employee-directory2022.herokuapp.com/",
+    "alt": "Employee Directory App",
+    "title": "React Employee Directory",
+    "desc": "Simple application for consuming API, and filtering for names built in React."
+  },
+  {
+    "href": "https://dustinerwin.github.io/Weather-Dashboard/",
+    "alt": "Weather Dashboard App",
+    "title": "Weather Dashboard",
+    "desc": "Weather forcast app that is simple and straight forward. Just type a city and it will give you the forecast for that area."
+  }
+]
