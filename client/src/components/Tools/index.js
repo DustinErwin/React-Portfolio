@@ -13,7 +13,7 @@ export default function Tools() {
   const scrollY = useContext(ScrollContext);
 
   useEffect(() => {
-    if (scrollY >= 2400) {
+    if (scrollY >= 2100) {
       setMoveIn("move-in");
     }
   }, [scrollY]);
@@ -40,10 +40,10 @@ export default function Tools() {
         </div>
         <div>
           <div>
-            <img className="img-me-pix" src={react} alt="jQuery Icon" />
+            <img className="img-me-pix" src={react} alt="React Icon" />
           </div>
           <div>
-            <img className="img-me-pix" src={mongodb} alt="Bootstrap Icon" />
+            <img className="img-me-pix" src={mongodb} alt="MongoDB Icon" />
           </div>
           <div>
             <img className="img-me-pix" src={node} alt="Node Icon" />

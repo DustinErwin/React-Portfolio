@@ -17,6 +17,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   opacity: 0;
+  margin-bottom: 20em;
 }
 
 #tools img {

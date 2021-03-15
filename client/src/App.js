@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Tools from "./components/Tools";
 import Contact from "./components/Contact";
 import ScrollContext from "./context/ScrollContext";
+import SlidingBackground from "./components/SlidingBackground";
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -27,11 +28,10 @@ function App() {
   return (
     <ScrollContext.Provider value={scrollY}>
       <div>
-        <div className="sliding-background"></div>
+        <SlidingBackground />
         <NavBar />
         <main className="container">
           <Intro />
-          <div className="spacer1"></div>
           <Skills />
           <div className="spacer2"></div>
           <Tools />
