@@ -1,12 +1,4 @@
-.sliding-background {
-  margin-top: 0;
-  z-index: -5;
-  position: fixed;
-  background: url("./images/20842368.jpg") repeat;
-  height: 1440px;
-  width: 23040px;
-  animation: slide 120s linear infinite;
-}
+
 
 .font-style {
   text-align: center;
@@ -14,13 +6,6 @@
   color: rgb(149, 204, 230);
 }
 
-.spacer1 {
-  height: 30em;
-}
-
-.spacer2 {
-  height: 20em;
-}
 
 .container {
   display: flex;
