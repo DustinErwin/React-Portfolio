@@ -33,5 +33,37 @@
 }
 
 .email {
-  font-size: 2vw;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 786px) {
+  .contact-info {
+    display: block;
+  }
+
+  .email {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 452px) {
+  .contact-info {
+    display: block;
+  }
+
+  .email {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 342px) {
+  .contact-info {
+    display: block;
+  }
+
+  .email {
+    font-size: 1.2rem;
+    margin-bottom: 80px;
+  }
 }
