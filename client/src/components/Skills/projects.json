@@ -3,28 +3,28 @@
     "href": "https://dustinerwin.github.io/CouchSurf/",
     "alt": "Couch Surf: Pandemic App",
     "title": "Couch Surf",
-    "desc": "A dashboard app meant to kick off your web browsing with a liitle bit of everything. I designed the games section here and also created the game, Couch Blasters: Pandemic.",
+    "desc": "Designed the games section here and also created the game, Couch Blasters: Pandemic. I handled all of the Git merging and end product debugging.",
     "image": "couchSurf.png"
   },
   {
     "href": "https://gym-logistical-tracker-duex.herokuapp.com/",
-    "alt": "Dev Fit App",
-    "title": "Dev Fit",
-    "desc": "A gym login application, designed to control access to members, employees, and managers. Class schedules are added upon login along with high level functionality.",
+    "alt": "Dev Fit App HTML",
+    "title": "Dev Fit (HTML)",
+    "desc": "I worked primarily on the backend here, setting up the SQL database and APIs to handle the data transfer. Backend has testing for all the major functions necessary for parsing the final data object.",
     "image": "devfit.png"
   },
   {
     "href": "https://employee-directory2022.herokuapp.com/",
     "alt": "Employee Directory App",
     "title": "React Employee Directory",
-    "desc": "Simple application for consuming API, and filtering for names built in React.",
+    "desc": "I created a simple application for consuming API, and filtering for names through user input. React was used for the entirety of the application.",
     "image": "empDirect.png"
   },
   {
-    "href": "https://dustinerwin.github.io/Weather-Dashboard/",
-    "alt": "Weather Dashboard App",
-    "title": "Weather Dashboard",
-    "desc": "Weather forcast app that is simple and straight forward. Just type a city and it will give you the forecast for that area.",
-    "image": "weatherDash.png"
+    "href": "https://dev-fit-gym-app.herokuapp.com/",
+    "alt": "Dev Fit App React",
+    "title": "Dev Fit (React)",
+    "desc": "Refactored this application in React, added authorization through Auth0, authored many of the react components, and intergrated a Mongo database for member classes and shop items. ",
+    "image": "DevFitReact.png"
   }
 ]

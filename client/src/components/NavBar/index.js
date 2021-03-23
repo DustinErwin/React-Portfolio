@@ -19,7 +19,9 @@ export default function NavBar() {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href={resume}>Resume</a>
+          <a href="https://drive.google.com/file/d/1eHLQY_Ryf0CoSbR4vYZKf3pBzNLMlFl9/view?usp=sharing">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
