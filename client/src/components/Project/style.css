@@ -9,7 +9,7 @@
 .project-desc {
   position: absolute;
   color: rgb(255, 255, 255);
-  transform: translate(7%, -113%);
+  transform: translate(8%, -114%);
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.8);
   border: 3px solid #f1f1f1;
@@ -20,6 +20,13 @@
   max-height: 280px;
   width: 80%;
   height: 90%;
+}
+
+@media only screen and (max-width: 475px) {
+  .project-desc {
+    min-width: 300px;
+    min-height: 280px;
+  }
 }
 
 .project:hover > .hide {
