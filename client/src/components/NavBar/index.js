@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../resume/Resume.pdf";
+
 import "./style.css";
 
 export default function NavBar() {
