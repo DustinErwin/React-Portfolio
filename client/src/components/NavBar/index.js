@@ -19,7 +19,7 @@ export default function NavBar() {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1I9N53GFSjNxupSVSuBvZGDZBj4P9GX9S/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/10FQ4gTFTe8VUHU5nowiJpBys6DU983ga/view?usp=sharing">
             Resume
           </a>
         </li>
