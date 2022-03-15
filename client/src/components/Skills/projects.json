@@ -7,17 +7,17 @@
     "image": "couchSurf.png"
   },
   {
-    "href": "https://gym-logistical-tracker-duex.herokuapp.com/",
-    "alt": "Dev Fit App HTML",
-    "title": "Dev Fit (HTML)",
-    "desc": "I worked primarily on the backend here, setting up the SQL database and APIs to handle the data transfer. Backend has testing for all the major functions necessary for parsing the final data object.",
-    "image": "devfit.png"
+    "href": "https://www.chromaticdragongames.com/",
+    "alt": "Chromatic Dragon Games",
+    "title": "Chromatic Dragon Games",
+    "desc": "This is a website made with React that I designed to entice and inform gamers about the brick-and-mortar location of my local LGS.",
+    "image": "dragonlogo.png"
   },
   {
     "href": "https://employee-directory2022.herokuapp.com/",
     "alt": "Employee Directory App",
     "title": "React Employee Directory",
-    "desc": "I created a simple application for consuming API, and filtering for names through user input. React was used for the entirety of the application.",
+    "desc": " Website designed to entice and inform gamers about the brick-and-mortar store location.",
     "image": "empDirect.png"
   },
   {
