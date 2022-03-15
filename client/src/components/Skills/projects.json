@@ -22,8 +22,8 @@
   },
   {
     "href": "https://dev-fit-gym-app.herokuapp.com/",
-    "alt": "Dev Fit App React",
-    "title": "Dev Fit (React)",
+    "alt": "Dev Fit App",
+    "title": "Dev Fit",
     "desc": "Refactored this application in React, added authorization through Auth0, authored many of the react components, and intergrated a Mongo database for member classes and shop items. ",
     "image": "DevFitReact.png"
   }
