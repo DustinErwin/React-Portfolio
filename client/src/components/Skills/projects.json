@@ -11,7 +11,7 @@
     "alt": "Chromatic Dragon Games",
     "title": "Chromatic Dragon Games",
     "desc": "This is a website made with React that I designed to entice and inform gamers about the brick-and-mortar location of my local LGS.",
-    "image": "../../images/dragonlogo.png"
+    "image": "dragonlogo.png"
   },
   {
     "href": "https://employee-directory2022.herokuapp.com/",
