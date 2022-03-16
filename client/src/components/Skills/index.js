@@ -9,7 +9,6 @@ import "./style.css";
 import ScrollContext from "../../context/ScrollContext";
 
 export default function Skills() {
-  const images = require.context("../../../public/images", true);
   const [moveIn, setMoveIn] = useState("");
   const scrollY = useContext(ScrollContext);
 
@@ -36,7 +35,7 @@ export default function Skills() {
           {projects.map((project) => (
             <Project
               href={project.href}
-              src={images(`./${project.image}`)}
+              src={project.image}
               alt={project.alt}
               title={project.title}
               desc={project.desc}
