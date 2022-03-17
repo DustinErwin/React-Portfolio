@@ -2,14 +2,10 @@ import React, { useContext, useEffect, useState } from "react";
 import Project from "../Project";
 import projects from "./projects.json";
 
-// import devfit from "../../images/devfit.png";
-// import weatherDash from "../../images/weatherDash.png";
-// import empDirect from "../../images/empDirect.png";
 import "./style.css";
 import ScrollContext from "../../context/ScrollContext";
 
 export default function Skills() {
-  const images = require.context("../../../public/images", true);
   const [moveIn, setMoveIn] = useState("");
   const scrollY = useContext(ScrollContext);
 
@@ -35,8 +31,9 @@ export default function Skills() {
         <div id="skills" className={moveIn}>
           {projects.map((project) => (
             <Project
+              key={project.title}
               href={project.href}
-              src={images(`./${project.image}`)}
+              src={project.image}
               alt={project.alt}
               title={project.title}
               desc={project.desc}

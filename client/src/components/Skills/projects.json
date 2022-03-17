@@ -4,27 +4,27 @@
     "alt": "Couch Surf: Pandemic App",
     "title": "Couch Surf",
     "desc": "Designed the games section here and also created the game, Couch Blasters: Pandemic. I handled all of the Git merging and end product debugging.",
-    "image": "https://drive.google.com/file/d/1q6AfD0eIT2vDgtIxbV5PiwopWWR_p204/view?usp=sharing"
+    "image": "./images/couchSurf.png"
   },
   {
     "href": "https://www.chromaticdragongames.com/",
     "alt": "Chromatic Dragon Games",
     "title": "Chromatic Dragon Games",
     "desc": "This is a website made with React that I designed to entice and inform gamers about the brick-and-mortar location of my local LGS.",
-    "image": "https://drive.google.com/file/d/1Lm1IJOLDCp9vwRu_ifsGCB7Pl2wrks6X/view?usp=sharing"
+    "image": "./images/dragonlogo.png"
   },
   {
     "href": "https://employee-directory2022.herokuapp.com/",
     "alt": "Employee Directory App",
     "title": "React Employee Directory",
     "desc": " Website designed to entice and inform gamers about the brick-and-mortar store location.",
-    "image": "https://drive.google.com/file/d/1k3VS6gx3pYHRLZ7wDdBQ3Hdo62IN3kdc/view?usp=sharing"
+    "image": "./images/empDirect.png"
   },
   {
     "href": "https://dev-fit-gym-app.herokuapp.com/",
     "alt": "Dev Fit App",
     "title": "Dev Fit",
     "desc": "Refactored this application in React, added authorization through Auth0, authored many of the react components, and intergrated a Mongo database for member classes and shop items. ",
-    "image": "https://drive.google.com/file/d/1TFE2rqcGh1SuWNidzlhmnjA-yfW6zTUZ/view?usp=sharing"
+    "image": "./images/DevFitReact.png"
   }
 ]
